@@ -1,0 +1,127 @@
+@media screen and (max-width: 390px){
+    .col-md-12.middle {
+        top: 25% !Important;
+    }
+    .banner-bg-2 p {
+        padding: 0px !important; 
+    }
+}
+@media screen and (max-width: 480px){
+    .banner-bg-2 p{
+        padding: 20px;
+    }
+    #section1 a span {
+        top: -100%;
+    }
+    #why_choose {
+        padding: 25px;
+    }
+    .wrapper {
+        width:100% !important;
+    }
+    .video {
+        width: 100% !important;
+    }
+    .img-1 img {
+    top: -121px;
+}
+.middle h2, .services h2, .dynisty h2, .creative h2, .objective h2, .bg-testimonials h2, .news h2, .market h2 {
+    font: normal normal normal 30px/37px Times New Roman;
+    text-align: center;
+}
+.end-footer h6 {
+    font: normal normal normal 11px/21px Poppins;
+}
+}
+@media screen and (max-width: 768px) {
+  .navbar-collapse.collapse {
+    background: #000;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100vh;
+}
+.navbar-brand img {
+    width: 100%;
+    max-width: 110px;
+    padding: 15px;
+    top: 0px;
+    position: fixed;
+    z-index: 999;
+    height: auto;
+    max-height: 77px;
+    object-fit: cover;
+}
+.navbar-toggler{
+    top: 22px;
+}
+
+.navbar{
+    padding: 0;
+    background-image: linear-gradient(to right, #000 , rgb(196, 161, 100,0.7));
+    position: fixed;
+    max-height: 74px;
+}
+ul.navbar-nav {
+    position: relative;
+    transform: translate(0%, 30%);
+}
+ul.social-media {
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+}
+.social-media li {
+    margin: auto;
+    position: absolute;
+    z-index: 999;
+    bottom: 100px;
+    right: 0;
+    left: 0;
+}
+.bg-testimonials{
+    padding: 15px;
+    height: 100%;
+    min-height: 500px;
+}
+.middle h2,.services h2,.dynisty h2, .creative h2, .objective h2, .bg-testimonials h2, .news h2, .market h2{
+    font: normal normal normal 39px/37px Times New Roman;
+    text-align: center;
+}
+.middle h3,.services p,.creative p, .workplace p, .objective p{
+    font: normal normal normal 20px/36px Poppins;
+    text-align: center;
+}
+.services p{
+    letter-spacing: 2.6px;
+    margin-bottom: 80px;
+}
+.btn.read-more{
+    width: 100%;
+}
+.more{
+    float: none;
+}
+.img-1 img {
+    top: -160px;
+}
+.card-body-h{
+    height: 100%;
+    min-height: 125px;
+}
+}
+@media screen and (min-width: 767px) and (max-width: 1024px){
+    .img-1 img {
+    top: -121px;
+}
+}
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 900px;
+}
+}
